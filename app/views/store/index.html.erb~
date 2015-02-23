@@ -10,7 +10,7 @@
  
 
  
- <% @products.each do |products| %> 
+ <% @products.each do |product| %> 
  
  <div class= "entry" > 
  
