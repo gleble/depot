@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+/* START_HIGHLIGHT */
+/* line 8, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products table {
+  border-collapse: collapse;
+}
+/* line 12, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 17, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_image {
+  width: 60px;
+  height: 70px;
+}
+/* line 22, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_description {
+  width: 60%;
+}
+/* line 25, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_description dl {
+  margin: 0;
+}
+/* line 29, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+/* line 35, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_description dd {
+  margin: 0;
+}
+/* line 40, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+/* line 46, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_line_even {
+  background: #e0f8f8;
+}
+/* line 50, /home/neil/depot/app/assets/stylesheets/scaffolds.scss */
+.products .list_line_odd {
+  background: #f8b0f8;
+}
+
+/* END_HIGHLIGHT */
