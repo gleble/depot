@@ -1,21 +1,11 @@
-<% if notice %> 
- 
- <p id= "notice" > <%= notice %> </p> 
- 
- <% end %> 
- 
-
- 
- <h1> Your Pragmatic Catalog </h1> 
- 
- <% if notice %>
+<% if notice %>
  
  <p id= "notice" > <%= notice %> </p> 
  
 <% end %>
  
 
- <h1> Your Pragmatic Catalog </h1> 
+ <h1> Your New Pragmatic Catalog </h1> 
 
 <% cache [ 'store' , Product.latest] do %>
  

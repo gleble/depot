@@ -2,8 +2,7 @@
  <html> 
  <head> 
  <title> Pragprog Books Online Store </title> 
- <%= stylesheet_link_tag "application", media: "all", 
-  "data-turbolinks-track" => true %> 
+
  <%= javascript_include_tag "application", "data-turbolinks-track" => true %> 
  <%= csrf_meta_tags %> 
  </head> 
@@ -20,16 +19,9 @@
  <li> <a href= "http://www..../news" > News </a> </li> 
  <li> <a href= "http://www..../contact" > Contact </a> </li>
 <ul> 
-
-
- </div> 
-
- 
- <div id= "main" > 
- 25 
- <%= yield %> 
-
- 
+ </div>  
+ <div id= "main" >  
+ <%= yield %>  
  </div> 
  </div> 
  </body> 
