@@ -5,10 +5,14 @@
 <% end %>
  
 
+<<<<<<< HEAD
  <h1> Your Old Pragmatic Catalog </h1> 
+=======
+ <h1> Your Groovy New Pragmatic Catalog </h1> 
+>>>>>>> iss53
 
 <% cache [ 'store' , Product.latest] do %>
- 
+  
 <% @products.each do |product| %>
 
 <% cache [ 'entry' , product] do %>

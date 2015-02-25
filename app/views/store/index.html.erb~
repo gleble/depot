@@ -5,7 +5,11 @@
 <% end %>
  
 
+<<<<<<< HEAD
  <h1> Your Pragmatic Catalog </h1> 
+=======
+ <h1> Your Groovy Pragmatic Catalog </h1> 
+>>>>>>> iss53
 
 <% cache [ 'store' , Product.latest] do %>
  
